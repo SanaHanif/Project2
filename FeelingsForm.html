@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="FeelingsForm.css">
+    <title>Feelings Form</title>
+</head>
+
+<body>
+
+ <!--- link to form with these questions:
+    Name/Username 
+    Please describe your feelings
+    Options to choose which feelings best describe yours (buttons or mc)
+    How do you want to feel? 
+    Options which feelings are desired?
+    Tell us a little bit about yourself 
+    age? 
+    -->
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Username</label>
+            <input type="Username" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email Address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Please describe your feelings</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Today I am feeling...">
+          </div> 
+          <break>
+        </break>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Which of these feelings do you identify with?</label>
+          <select class="form-control" id="exampleFormControlSelect1" placeholder="Select one">
+            <option>Happiness</option>
+            <option>Saddness</option>
+            <option>Emptiness</option>
+            <option>Loneliness</option>
+            <option>Anger</option>
+            <option>Confusion</option>
+            <option>Excitment</option>
+            <option>Anxiety</option>
+            <option>Joy</option>
+          </select>
+        </div>
+        <break>
+        </break>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">How do you want to feel?</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="I want to feel...">
+          </div> 
+          <break>
+        </break>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Please select a feeling that best suits the way you want to feel</label>
+          <select class="form-control" id="exampleFormControlSelect2" placeholder="Select one">
+            <option>Happiness</option>
+            <option>Saddness</option>
+            <option>Emptiness</option>
+            <option>Loneliness</option>
+            <option>Anger</option>
+            <option>Confusion</option>
+            <option>Excitment</option>
+            <option>Anxiety</option>
+            <option>Joy</option>
+          </select>
+        </div> 
+        <break>
+        </break>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Age</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea placeholder="#">
+          </div>
+      </form>
+
+    <button>SUBMIT</button>
+
+      <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

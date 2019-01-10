@@ -1,0 +1,39 @@
+html {
+    background: rgb(180, 206, 220);
+}
+
+h3 {
+    margin: 40px;
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    color: White;
+    background: rgb(180, 206, 220);
+}
+
+form {
+    margin: 40px;
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    color: White;
+    background: rgb(180, 206, 220);
+    text-align: center;
+    line-height: 125%;
+}
+
+body {
+    padding: 30;
+    margin: 40px;
+    font-family:'Quattrocento', serif;
+    font-size: 20px;
+    line-height: 125%;
+    color: White;
+    background: rgb(180, 206, 220);
+}
+
+p ul li {
+    text-align: center;
+    line-height: 125%;
+    font-size: 25px;
+    font-family: 'Quattrocento', serif;
+    color: white;
+}

@@ -1,0 +1,32 @@
+html {
+    color: rgb(250, 250, 250); 
+    background: rgb(40, 44, 91);
+    background: rgb(180, 206, 220);
+}
+
+h5 {
+    padding: 75;
+    margin: 50px;
+    font-family: 'Hind', sans-serif;
+    font-size: 100;
+    line-height: 100%;
+    color: rgb(250, 250, 250); 
+    font-weight: bold;
+    background: rgb(180, 206, 220);
+}
+
+form {
+    padding: 75;
+    margin: 50px;
+    font-family: 'Hind', sans-serif;
+    font-size: 32px;
+    line-height: 100%;
+    color: rgb(250, 250, 250); 
+    font-weight: bold;
+    background: rgb(180, 206, 220);
+}
+
+p {
+    color: white;
+    text-decoration: none;
+}

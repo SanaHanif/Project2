@@ -1,0 +1,59 @@
+html {
+    background-color: rgb(180, 206, 220);
+}
+
+title {
+    font-family: 'Bree Serif', serif;
+    font-size: 100px;
+    font-weight: bolder; 
+    color: rgb(250, 250, 250);
+    background: rgb(180, 206, 220);
+    line-height: 200;
+    text-align: center;
+}
+
+body {
+    color: rgb(250, 250, 250); 
+    background: rgb(180, 206, 220);
+}
+
+h2 {
+    margin: 20px, 15px, 50px;
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(252, 250, 250);
+    background: rgb(180, 206, 220);
+    text-align: center;
+}
+
+p {
+    padding: 30;
+    margin: 40px;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(250, 250, 250); 
+    font-weight: bolder;
+    background: rgb(180, 206, 220);
+    text-align: center;
+}
+
+p #bio {
+    text-align: center;
+    font-family: 'Bree Serif', serif; 
+    font-size: 60px;
+    font-weight: bold; 
+    color: rgb(250, 250, 250);
+    background: rgb(180, 206, 220);
+    line-height: 150;
+}
+
+p ul {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-size: 40px;
+
+} 
+
+/* color of link and size of text */
